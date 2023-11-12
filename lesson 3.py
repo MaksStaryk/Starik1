@@ -48,8 +48,12 @@ first_word = 'employ'
 second_word = 'employment'
 print(second_word.startswith(first_word))
 print()
-#"""start task 9"""
-#print("start task 9")
+"""start task 9"""
+print("start task 9")
+some_word = 'frogfrogfrog'
+some_word2= some_word.replace('f','a',1)
+print('индекс второй f:',some_word2.index('f'))
+print()
 """start task 10*"""
 print("task 10*")
 school_classes = {'1a':15, '2a':15, '3a':15, '4a':15, '5a':15, '6a':15, '7a':15, '8a':15, '9':{'a':15, 'b':15}, '10a':15}
