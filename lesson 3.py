@@ -63,8 +63,8 @@ school_classes['1a'] += child_add
 print(school_classes['1a'])
 print()
 print('task 10б')
-school_classes['9b'] = '15'
-print('добавлен класс 9b',school_classes['9b'])
+school_classes['11a'] = '15'
+print('добавлен класс 11a',school_classes['11a'])
 print()
 "task 10в"
 del school_classes['2a']
