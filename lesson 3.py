@@ -47,3 +47,26 @@ print('start tast 8')
 first_word = 'employ'
 second_word = 'employment'
 print(second_word.startswith(first_word))
+print()
+#"""start task 9"""
+#print("start task 9")
+"""start task 10*"""
+print("task 10*")
+school_classes = {'1a':15, '2a':15, '3a':15, '4a':15, '5a':15, '6a':15, '7a':15, '8a':15, '9':{'a':15, 'b':15}, '10a':15}
+print('task 10a')
+child_add = 5
+school_classes['1a'] += child_add
+print(school_classes['1a'])
+print()
+print('task 10б')
+school_classes['9b'] = '15'
+print('добавлен класс 9b',school_classes['9b'])
+print()
+"task 10в"
+del school_classes['2a']
+print()
+print('task 10г')
+nine_clasess = school_classes.get('9')
+nine_clasess1 = nine_clasess.values()
+print(sum(nine_clasess1))
+
