@@ -11,6 +11,3 @@ print()
 some_word = ('predecessore')
 print(some_word.count('e'))
 print()
-
-
-
