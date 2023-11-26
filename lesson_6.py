@@ -10,14 +10,18 @@ def kratnie_5_3():
     return numbers
 print(kratnie_5_3())
 """task 3"""
-def tvoi_chisla(a,b,c):
-    a,b,c = input('enter value:').split()
-    a = int(a)
-    b = int(b)
-    c = int(c)
-    for x in range(a,b + 1):
+
+
+def tvoi_chisla(a, b, c):
+    for x in range(a, b + 1):
         print(x ** c, end=' ')
-tvoi_chisla(1,9,2)
+
+
+a, b, c = input('enter value:').split()
+a = int(a)
+b = int(b)
+c = int(c)
+tvoi_chisla(a, b, c)
 print()
 """task 4"""
 print('task 4')
