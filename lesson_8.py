@@ -99,3 +99,4 @@ try:
     lst.remove(num)
 except ValueError:
     raise TypeError('net takogo elementa')
+
