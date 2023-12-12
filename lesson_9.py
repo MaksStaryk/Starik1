@@ -111,7 +111,7 @@ else:
 
 spar.udal_foods('Halva')
 
-my_poisk = spar.poisk_foods(input('enter food:'))
+my_poisk = spar.poisk_foods()
 if my_poisk:
     print(f"{my_poisk.name} naiden")
 else:
