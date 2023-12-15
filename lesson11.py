@@ -1,4 +1,5 @@
 import time
+
 """task 1"""
 def fib(n):
     a, b = 0, 1
@@ -19,7 +20,6 @@ while True:
     except StopIteration:
         break
 
-fib(n)
 
 """task 2"""
 def checker(num):
