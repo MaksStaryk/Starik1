@@ -82,3 +82,43 @@ print(generator_2)
 print(generator_3)
 print(generator_4)
 
+
+"""task 7"""
+
+
+def add_nomera(kontack, name, noviej_nomer):
+    if name in kontack:
+        kontack[name].append(noviej_nomer)
+        print(f'nomer: {noviej_nomer} dobavlen k {name}')
+    else:
+        print(f'Contact {name} ne naiden')
+
+
+def poisk_contacta(kontakt, nomer):
+    poisk_nomera = {}
+    for name, numbers in kontakt.items():
+        if nomer in numbers:
+            poisk_nomera[name] = numbers
+    return print(poisk_nomera)
+
+
+kontackti = {
+    "Ben": ["89001234050", "+70504321009"],
+    "Alice": ["210-220", "404-502", "894-005", "439-095"],
+    "Nick": ["+16507811251"],
+    "Alex": ["+4(908)273-22-42"],
+    "Robert": ["51234047129", "92174043215"]}
+
+Ben_nomer = int(input('enter nomer for Ben: '))
+Alice_nomer = int(input('enter nomer for Alice: '))
+Nick_nomer = int(input('enter nomer for Nick: '))
+Alex_nomer = int(input('enter nomer for Alex: '))
+Robert_nomer = int(input('enter nomer for Robert: '))
+add_nomera(kontackti, "Ben", Ben_nomer)
+add_nomera(kontackti, "Alice", Alice_nomer)
+add_nomera(kontackti, "Nick", Nick_nomer)
+add_nomera(kontackti, "Alex", Alex_nomer)
+add_nomera(kontackti, "Robert", Robert_nomer)
+
+poisk_contacta(kontackti, Ben_nomer)
+"""......."""
